@@ -1,0 +1,288 @@
+body {
+  background-color: #1e1e1e;
+  width:2000px;
+  height:300px;
+}
+
+.sidebar {
+  width: 333px;
+  height: 1075px;
+  border-radius: 20px;
+  background: #262626;
+}
+
+.profile {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  left: 76px;
+  top: 75px;
+
+  background: url(../images/Tony_Stark.jpg);
+  border: 2px solid #333333;
+  border-radius: 1000px;
+}
+
+#tony {
+  position: absolute;
+  width: 132px;
+  height: 36px;
+  left: 33px;
+  top: 244px;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#billionaire {
+  position: absolute;
+  width: 87px;
+  height: 27px;
+  left: 53px;
+  top: 292px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  position: absolute;
+  width: 298px;
+  height: 61px;
+  left: 38px;
+
+  background: #111111;
+  border-radius: 30px;
+
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.5);
+  
+ 
+}
+
+#button1 {
+  top: 430px;
+  
+}
+
+#button2 {
+  top: 515px;
+}
+
+#button3 {
+  top: 599px;
+}
+
+.sidebar.bstyle {
+  position: absolute;
+ 
+
+ 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#b1style {
+    width: 121px;
+
+    left: 127px;
+    top: 447px;
+   
+}
+#b2style {
+  width: 160px;
+
+  left: 107px;
+  top: 532px;
+}
+
+#b3style {
+  width: 109px;
+
+  left: 133px;
+  top: 616px;
+}
+
+/* information */
+.info {
+  position: absolute;
+  width: 1323px;
+  height: 588px;
+  left: 374px;
+  top: 19px;
+
+  background: #262626;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+#info_heading {
+  position: absolute;
+  width: 231px;
+  height: 36px;
+  left: 0px;
+  top: 2px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.info_para,
+#info_link {
+  position: absolute;
+  width: 472px;
+  height: 430px;
+  left: 0px;
+  top: 73px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#info_link {
+    left:94px;
+  top: 480px;
+}
+
+#info_img {
+    position: absolute;
+    width: 690px;
+    height: 430px;
+    left: 600px;
+    top: 125px;
+    
+  
+    background: url(../images/avengers.webp);
+    border-radius: 20px;
+  }
+
+.suits{
+   
+  box-sizing: border-box;
+
+  
+  position: absolute;
+  width: 1323px;
+  height: 464x;
+  left: 500px;
+  top: 636px;
+
+  background: #262626;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius:50px;
+}
+
+
+  
+  
+ table{
+    
+   
+        height:10px;
+        width: 1000px;
+      
+    
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    text-align: left;
+    margin:100px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+ 
+
+
+color: rgba(255, 255, 255, 0.5);
+    
+
+
+
+   
+     
+}
+.suits,p{
+  
+ 
+ 
+ margin:90px;
+ 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+}
+
+ 
+th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse:collapse;
+ }
+ td,th{
+   
+    border-right:1px solid  rgba(255, 255, 255, 0.5);
+    padding:30px;
+ 
+    
+ 
+ }
+
+ .id{
+    width:40px;
+    
+ }
+
+ .suitname{
+    width:350px;
+     
+ }
+ 
+ .movie{
+    width:300px;
+ }
+
+ .year{
+    width:200px;
+ }

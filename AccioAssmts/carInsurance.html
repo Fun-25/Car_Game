@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="#" method="post"  >
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required/> 
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email"  required/>
+        </div>
+
+         
+
+        <div>
+          <label for="gender"  required>Gender</label>
+          <div>
+            <input type="radio" name="gender" id="gender" value="Male"  />
+            <label for="gender">Male</label>
+            
+          </div>
+
+          <div> 
+          <input type="radio" name="gender" id="gender" value="Female" />
+          <label for="gender">Female</label>
+          
+          </div>
+          
+          <div>
+            <input type="radio" name="gender" id="gender" value="others" />        
+            <label for="gender">Others</label>
+            
+          </div>
+          
+        </div>
+
+        <div>
+          <label for="carBrands">Car Brands</label>
+          <select name="carBrands" id="carBrands"  required>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+          </select>
+           
+        </div>
+
+        <div>
+          <label for="carAge">Car Age</label>
+          <input type="number" name="carAge" id="carAge" />
+        </div>
+
+        <div>
+            <label for="dateOfPurchase">Date of Purchase</label>
+            <input type="date" name="dateOfPurchase" id="dop"  required />
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"  required/>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+
+      </form>
+    </div>
+  </body>
+</html>
