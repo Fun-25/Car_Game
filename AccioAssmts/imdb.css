@@ -1,0 +1,32 @@
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    float: left;
+    padding-right: 300px;
+}
+h1{
+    text-align: center;
+    text-shadow: red;
+}
+
+nav{
+
+    border: 2px solid red;
+}
+
+a:hover{
+    color:purple;
+}
+
+.sidebar{
+
+    border: 2px solid rgb(228, 236, 234);
+    padding: 20px;
+    width: 300px;
+    height: 700px;
+    float: right;
+}
+
+footer{
+    border: 5px solid #0b990b;
+    padding: 15px;
+}

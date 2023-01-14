@@ -1,0 +1,53 @@
+/* Your CSS Code here. */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.profile {
+	width:250px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+.profile img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#skills,
+#education,
+#projects{
+	margin: 50px 0;	
+}
+
+#skills h1,
+#education h1,
+#projects h1{
+	padding-bottom: 15px;
+}
+
+#skills h1 span,
+#education h1 span,
+#projects h1 span{
+	text-decoration: underline;
+}
+#skills ul,
+#projects ul{
+	padding-left:30px;
+}
+
+table, td, th{
+	border: 2px solid black;
+}
+
+table td,
+table th{
+	padding:10px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
