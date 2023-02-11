@@ -1,0 +1,115 @@
+/* psudo classes 
+first-child
+last-child
+only-child
+invalid*/
+
+p:first-child{              
+    font-style: italic;
+}
+
+
+/* User action pseudo classes */
+a:link,a:visited{
+    color: aqua;
+     font-weight: bold;
+}
+a:hover{
+    
+    color:pink;
+     
+}
+
+
+a:focus{
+    background-color: coral;
+}
+
+/* pseudo elements */
+
+ p::before{
+content: "hello!"
+}
+article p::first-line{
+    font-size: larger;
+    font-weight: bold;
+} 
+
+.flex-container{
+    display: flex;
+   gap:20px;
+   flex-flow: row wrap;
+   margin:20px;
+   padding: 20px;
+   
+}
+header{
+    font-weight: bold;
+}
+
+.flex-item{
+  
+   
+    border: 1.5px solid rgb(230, 35, 35);
+    background-color: rgb(78, 176, 233);
+}
+ 
+article{
+    flex:1 200px;
+}
+
+article:nth-of-type(3){
+    flex:2 200px;
+}
+
+.flex-container-button{
+display: flex;
+
+/* align-items: stretch;       not working*/
+ /* justify-content: center;   */
+gap:50px;
+margin:30px;
+}
+
+.flex-item-button{
+    border: 1px solid black;
+    background-color: mediumaquamarine;
+
+}
+button:first-child{
+    align-self: flex-end;   /* not working */
+    order:1;
+    
+   }
+
+   button:last-child{
+    order:-1;
+   }
+
+   /* Nested flex boxes */
+
+   article{
+    flex:1 200px;
+   }
+
+   article:nth-of-type(3) {
+    flex:3 300px;
+    display: flex;
+    flex-direction: column;
+
+   }
+article:nth-of-type(3) div:first-child{
+    display:flex;
+    flex-flow: row wrap;
+   
+    justify-content: space-around;
+
+}
+button{
+    flex:1 auto;   /* without auto also it's responsive*/
+    margin:5px;
+
+font-size: large;
+line-height: 1.5em;
+
+}

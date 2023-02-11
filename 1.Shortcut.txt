@@ -1,0 +1,6 @@
+Hot keys!!!
+
+1.Alt + click = to enable multiple cursor
+2.Ctrl + Y = to redo
+3.Ctr + D = to select next duplicate text
+4.Shift + click = select the content between cursors

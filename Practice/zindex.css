@@ -1,0 +1,29 @@
+/* body{
+    position: relative;  why test 2 is not touching the top 
+                            is html position by default is relative 
+                            why test2 & test3 are getting positioned form left relative to test and not to html/body tag 
+} */
+.test{
+    width:100px;
+    height: 100px;
+    background-color: aqua;
+    font-size: large;
+    position: absolute;
+    
+}
+
+ 
+.test2{
+    background-color: rgb(66, 240, 75);
+     top:50px;
+    left:50px;
+    z-index:3 ;
+}
+
+.test3{
+    background-color: rgb(240, 229, 77);
+ top:30px;
+    left:50px;
+    z-index:2;
+}
+

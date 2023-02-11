@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+     
+  </head>
+  <body>
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="first-name-input" class="form-label">First name</label>
+          <input type="text" class="form-control is-valid" id="first-name-input" value="Mark" required>
+          <div class="valid-feedback">
+            First name required!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="last-name-input" class="form-label">Last name</label>
+          <input type="text" class="form-control is-valid" id="last-name-input" value="Otto" required>
+          <div class="valid-feedback">
+            Last name required!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="email-input" class="form-label">Email Address</label>
+          <div class="input-group has-validation">
+             
+            <input type="email" class="form-control is-invalid" id="email-input" placeholder="xyz@abc.com" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            <div id="email-input" class="invalid-feedback">
+              Email required!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="college-input" class="form-label">College</label>
+          <input type="text" class="form-control is-invalid" id="college-input" aria-describedby="validationServer03Feedback" required>
+          <div id="college-inpu" class="invalid-feedback">
+            Please provide a valid college.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="graduation-year-input" class="form-label">State</label>
+          <select class="form-select is-invalid" id="graduation-year-input" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+
+          </select>
+          <div id="graduation-year-input" class="invalid-feedback">
+            Please select a valid Graduation Year.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="roll-no-input" class="form-label">Roll No</label>
+          <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+          <div id="roll-no-input" class="invalid-feedback">
+            Please provide a valid Roll no.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="conditions-checkbox" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="conditions-checkbox">
+              Agree to terms and conditions
+            </label>
+            <div id="conditions-checkbox" class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+  </body>
+</html>

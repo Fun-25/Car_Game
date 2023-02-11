@@ -1,0 +1,42 @@
+.media{
+    content:'XS';
+    display:block;
+    font-size:45px;
+    color: blue;
+
+
+}
+.test{
+    background-color:blueviolet ;
+    height:50px;
+    border: 2px solid white;
+    color: aliceblue;
+}
+
+ 
+
+@media (min-width:576px){
+    .media::after{
+        content:'SM';
+    }
+}
+@media (min-width:768px){
+    .media::after{
+        content:'MD';
+    }
+}
+@media (min-width:992px){
+    .media::after{
+        content:'LG';
+    }
+}
+@media (min-width:1200px){
+    .media::after{
+        content:'XL';
+    }
+}
+@media (min-width:1400px){
+    .media::after{
+        content:'XXL';
+    }
+}

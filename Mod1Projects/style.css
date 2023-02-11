@@ -1,14 +1,20 @@
-.heading{
-    text-decoration: underline;
-}
+ .container{
+  
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 2fr 1fr;
+  border:1px solid black;
+  width: 1265px;
+height: 597px;
 
-.beagle{
-    margin:3px;
+
+background: #FFFFFF;
+ }
+
+ .left{
+    display:grid;
+    
     border:1px solid black;
-    padding:20px;
-}
-
-.link{
-    color:black;
-   
-}
+    
+    
+ }

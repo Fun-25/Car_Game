@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+.container{
+    display:grid;
+    border:1px solid red;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left{
+    display:grid;
+    border: 2px solid grey;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.item{
+    border: 1px solid grey;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.bottom{
+    grid-column: 1 / -1;
+    border:2px solid blue;
+    padding:20px;
+}
+
+.material-icons{
+    font-size: 50px;
+}
+
