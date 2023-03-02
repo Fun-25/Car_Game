@@ -6,23 +6,39 @@ let arr = [
     { id: 3, name: "karen", age: "19", marks: 35 },
   ];
   
+  function logstudent(student){
+      if(student.marks>50)
+      console.log(student);
+    }
   function PrintStudentwithMap() {
-    arr.map(student => {
-        if (student.marks > 50) {
-            console.log(student);
-        }
-    });
+    // arr.map(student => {
+    //     if (student.marks > 50) {
+    //         console.log(student);
+    //     }
+    // });
 
+    // arr.map(function(student){
+    //   if(student.marks>50)
+    //   console.log(student);
+    // })
+arr.map(logstudent);
 
   }
  
   
   function PrintStudentbyForEach() {
-    arr.forEach(student => {
-        if (student.marks > 50) {
-            console.log(student);
-        }
-    });
+    // arr.forEach(student => {
+    //     if (student.marks > 50) {
+    //         console.log(student);
+    //     }
+    // });
+
+    // arr.map(function(student){
+    //   if(student.marks>50)
+    //   console.log(student);
+    // })
+
+    arr.forEach(logstudent);
   }
   
   function addData() {
@@ -32,8 +48,14 @@ let arr = [
   }
   
   function removeFailedStudent() {
-    arr = arr.filter(student => student.marks < 50);
-    console.log(arr);
+    // arr = arr.filter(student => student.marks < 50);
+    // console.log(arr);
+
+arr.forEach(function(student,index){
+  if(student.marks<50)
+  arr.splice(index,1);
+})
+console.log(arr);
   }
   
   function ConcatenateArray() {
@@ -42,6 +64,9 @@ let arr = [
         { id: 5, name: "toka", age: "20", marks: 65 },
         { id: 6, name: "hide", age: "19", marks: 55 }
     ];
-    let combinedArr = arr.concat(newArr);
-    console.log(combinedArr);
+    // let combinedArr = arr.concat(newArr);
+    // console.log(combinedArr);
+
+    let finalarr=[...arr,...newArr];
+    console.log(finalarr);
   }

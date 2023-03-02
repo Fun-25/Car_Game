@@ -16,18 +16,5 @@ console.log(books);
 var obj=Object.create(null); // //empty object // [Object: null prototype] {}
 console.log(obj);
 
-function Largest(var arr){
-    var index=-1;
-    var LargestElement=-1;
-}
 
-for(var i=0;i<arr.length;i++){
-    if(arr[i]>largestElement){
-largestElement=arr[i];
-index=i;
-    }
-return index;
-}
-
-
-console.log(largest([1,2,3,4]));
+ 
